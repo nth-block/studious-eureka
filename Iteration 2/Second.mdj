@@ -18784,7 +18784,8 @@
 								"$ref": "AAAAAAFnK2Hclr/ObTg="
 							},
 							"name": "userId",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -18793,7 +18794,8 @@
 								"$ref": "AAAAAAFnK2Hclr/ObTg="
 							},
 							"name": "userCredential",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -18934,7 +18936,8 @@
 								"$ref": "AAAAAAFnK2Hcl7/iilQ="
 							},
 							"name": "potholeId",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -18953,7 +18956,8 @@
 								"$ref": "AAAAAAFnK2Hcl7/iilQ="
 							},
 							"name": "fixingApprovedByWard",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -19004,7 +19008,8 @@
 								"$ref": "AAAAAAFnK2HcmcAEKzY="
 							},
 							"name": "username",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -19013,7 +19018,8 @@
 								"$ref": "AAAAAAFnK2HcmcAEKzY="
 							},
 							"name": "password",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -19032,7 +19038,8 @@
 								"$ref": "AAAAAAFnK2HcmsAPvIs="
 							},
 							"name": "location",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -19041,7 +19048,8 @@
 								"$ref": "AAAAAAFnK2HcmsAPvIs="
 							},
 							"name": "address",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -19078,7 +19086,8 @@
 								"$ref": "AAAAAAFnK2Hcm8AX9G0="
 							},
 							"name": "potholeSize",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -19097,7 +19106,8 @@
 								"$ref": "AAAAAAFnK2Hcm8AbeQk="
 							},
 							"name": "wardId",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -19106,7 +19116,8 @@
 								"$ref": "AAAAAAFnK2Hcm8AbeQk="
 							},
 							"name": "wardName",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -19157,7 +19168,8 @@
 								"$ref": "AAAAAAFnK2Hcm8AgnhU="
 							},
 							"name": "contractorId",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -19166,7 +19178,8 @@
 								"$ref": "AAAAAAFnK2Hcm8AgnhU="
 							},
 							"name": "contractorName",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -19175,7 +19188,8 @@
 								"$ref": "AAAAAAFnK2Hcm8AgnhU="
 							},
 							"name": "contractorLicense",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -19184,7 +19198,8 @@
 								"$ref": "AAAAAAFnK2Hcm8AgnhU="
 							},
 							"name": "assignedPotholes",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				}
