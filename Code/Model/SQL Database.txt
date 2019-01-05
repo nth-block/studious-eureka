@@ -1,0 +1,51 @@
+//.open 'database'
+//.schema table_name
+
+
+CREATE TABLE USER(
+   userID VARCHAR(15) PRIMARY KEY NOT NULL,
+   userPassword VARCHAR(20) NOT NULL,
+   firstName CHARACTER(50) NOT NULL,
+   lastName CHARACTER(50) NOT NULL,
+   middleName CHARACTER(50),
+   phoneNumber INT,
+   userRole VARCHAR(10) NOT NULL DEFAULT 'Citizen'
+   emailAddress VARCHAR(50) NOT NULL UNIQUE,
+   );
+
+
+
+INSERT INTO USER (SerialID,userID,userPassword,firstName,lastName,contactNumber)
+VALUES (1,'user01','Password@123','Dan','Yang','9898989898');
+//.header on
+//.mode column
+
+
+
+CREATE TABLE POTHOLE(
+   potHoleid INT PRIMARY KEY NOT NULL,
+   potHoleLattitue FLOAT NOT NULL,
+   potHoleLongitude FLOAT NOT NULL,
+   wardNumber VARCHAR(10),
+   approvedByBBMP BOOLEAN NOT NULL,
+   totalCost DOUBLE NOT NULL,
+   contractorID VARCHAR,
+   potHoleSize FLOAT DEFAULT 0,
+   potHoleFixed BOOLEAN DEFAULT false,
+   potHoleFixedDate DATE,
+   FOREIGN KEY(contractorID) REFERENCES CONTRACTOR(contractorID)
+   );
+
+
+CREATE TABLE CONTRACTOR(
+   companyName VARCHAR(100) NOT NULL,
+   contractorID VARCHAR(50) PRIMARY KEY NOT NULL,
+   contractorLicense VARCHAR(100) NOT NULL
+   );
+
+CREATE TABLE BBMP(
+   wardNumber INT NOT NULL PRIMARY KEY,
+   wardName VARCHAR(50) NOT NULL
+   );
+
+
