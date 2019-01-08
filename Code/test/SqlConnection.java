@@ -42,7 +42,7 @@
 		     scanner1.close();scanner2.close();scanner3.close();scanner4.close();scanner5.close();scanner6.close();scanner7.close();scanner8.close();
 		     // database parameters
 		     
-		     String url = "jdbc:sqlite:c:/sqlite3/POTSYSTEMDB.db";
+		     String url = "jdbc:sqlite:c:/sqlite3/POTSYSTEMDB";
 			  // create a connection to the database
 			 conn = DriverManager.getConnection(url);   
 			 System.out.println("Connection to SQLite has been established.");
@@ -50,7 +50,7 @@
 			 //Insert values to database
 			 System.out.println("Inserting records into the table...");
 			         Statement myStmt = conn.createStatement(); 
-			         String sql = "INSERT INTO USER "+ "(userID, userPassword, firstName, lastName, middleName, contactNumber, emailAddress, userRole)"+"VALUES(?,?,?,?,?,?,?)";
+			         String sql = "INSERT INTO USER "+ "(userID, userPassword, firstName, lastName, middleName, contactNumber, emailAddress, userRole)"+"VALUES(?,?,?,?,?,?,?,?)";
 			         PreparedStatement ps= conn.prepareStatement(sql);
 			         
 			         ps.setString(1, userID);
