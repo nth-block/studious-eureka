@@ -1,0 +1,29 @@
+Iteration 4: GRASP
+1. Low Coupling : 
+Mobile Application POT system Interface class(System in interaction diagram of UC01) -> User Class ->Credential class -> Password Derivation Class.
+(The mobile interface class create user object then the user object ceates credential class object for password generation and uses password derivation object to generate password hash. The POT system interface doesn't know about password derivation class methods and obhects.)
+
+User Class ->POTHole Class -> PotHoleGeometry Class
+User class object creates pothole calss object and calls method to get the geometry of the pothole. The user class does not know about geometry class.hence supports low coupling.
+
+2. High Cohesion:
+PotHole class is in high cohesion with geometry class as they know their clear responsibility.
+report pothole (System in interaction diagram of UC02) has clear responsibility of the work between user and system.
+
+
+3. Information Expert:
+Mobile Application POT (System in interaction diagram of UC01) Interface class agreggates all the infomartion regarding user class and assigns task for user object creation.
+
+4. Controller:
+POT system UI present the root level and login button initiates the action for the system class.
+
+5. Indirection:
+Payment gateway interface which extendes a 3rd party in UC06 uses TaxCalculator Adapter (indirection) to solve the tax computation for payments.(Yet to be added in document).
+
+
+Summary for Iteration3( Elaboration)
+Use case is still a document.
+Added user interface diagram.
+Refined Use case diagram (UC01-UC05) and made adjustments in interaction diagram, DCD usingStar UML.
+created java codes based on the DCD and UC06 release payment.
+Added state and package diagram for entire use case.
